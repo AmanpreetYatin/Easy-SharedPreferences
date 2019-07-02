@@ -24,5 +24,17 @@ allprojects {
    
 <b>Usage</b>
 <br>
-// To save String // </br>
-EasySharedPreference.putString("KEY", "value");
+//initilize only ones in application class<br>
+ <code>
+ override fun onCreate() {
+        super.onCreate()
+        EasySharedPreferenceConfig.initDefault(EasySharedPreferenceConfig.Builder()
+                .setFileName("easy_preference")
+                .setMode(Context.MODE_PRIVATE)
+                .build())
+    }</code>
+    <br>
+    
+EasySharedPreference.Companion.putString("KEY", "value");<br>
+EasySharedPreference.Companion.getString("KEY", "DefaultValue");
+
