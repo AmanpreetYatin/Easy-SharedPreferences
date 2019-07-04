@@ -2,7 +2,7 @@
 A Simple Library to store  data on shared preferences
 
 Spec
-[![Release](https://jitpack.io/v/amanpreetyatin/Repo.svg)]
+[![Release](https://jitpack.io/v/AmanpreetYatin/Easy-SharedPreferences.svg)]
 (https://jitpack.io/#AmanpreetYatin/Easy-SharedPreferences/0.1.0
 )
 
