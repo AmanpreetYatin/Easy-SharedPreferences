@@ -32,7 +32,7 @@ allprojects {
                 .inputMode(Context.MODE_PRIVATE)
 		.build());</code><br>
 	
-	<b>Kotlin</b><br>
+<b>Kotlin</b><br>
  <code>
  override fun onCreate() {
         super.onCreate()<br>
