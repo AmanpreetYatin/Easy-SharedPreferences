@@ -21,7 +21,7 @@ allprojects {
     <br>
     Step 2. Add the dependency<br>
 <code style="background-color:#f6f8fa;font-size:84%">
-	        implementation 'com.github.AmanpreetYatin:Easy-SharedPreferences:0.1.0' </code>
+	        implementation 'com.github.AmanpreetYatin:Easy-SharedPreferences:0.1.1' </code>
 
    
 <b>Usage</b><br>
