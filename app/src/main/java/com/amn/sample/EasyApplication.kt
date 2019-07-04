@@ -4,12 +4,12 @@ import android.app.Application
 import android.content.Context
 import com.amn.easysharedpreferences.EasySharedPreferenceConfig
 
-class SampleApplication : Application() {
+class EasyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         EasySharedPreferenceConfig.initDefault(EasySharedPreferenceConfig.Builder()
-                .setFileName("easy_preference")
-                .setMode(Context.MODE_PRIVATE)
+                .inputFileName("easy_preference")
+                .inputMode(Context.MODE_PRIVATE)
                 .build())
     }
 }

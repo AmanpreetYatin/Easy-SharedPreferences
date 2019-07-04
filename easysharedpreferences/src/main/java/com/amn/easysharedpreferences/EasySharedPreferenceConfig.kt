@@ -36,16 +36,16 @@ open class EasySharedPreferenceConfig {
     }
 
 
-    class Builder {
+   open class Builder {
         var fileName: String = BuildConfig.APPLICATION_ID + ".App_Preference"
         var mode: Int = Context.MODE_PRIVATE
 
-        fun setFileName(fileKey: String): Builder {
+        fun inputFileName(fileKey: String): Builder {
             this.fileName = fileKey
             return this
         }
 
-        fun setMode(mode: Int): Builder {
+        fun inputMode(mode: Int): Builder {
             this.mode = mode
             return this
         }
