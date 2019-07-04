@@ -44,6 +44,8 @@ allprojects {
     }</code>
     <br>
     
+   <b>EXAMPLE::</b><br>
+
 EasySharedPreference.Companion.putString("KEY", "value");<br>
 EasySharedPreference.Companion.getString("KEY", "DefaultValue");
 
