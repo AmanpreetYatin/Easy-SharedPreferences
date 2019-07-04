@@ -1,8 +1,8 @@
 # Easy-SharedPreferences
 A Simple Library to store  data on shared preferences
 
-Spec
-(https://jitpack.io/v/AmanpreetYatin/Easy-SharedPreferences.svg)<br>
+
+[![Release](https://jitpack.io/v/AmanpreetYatin/Easy-SharedPreferences.svg)]<br>
 (https://jitpack.io/#AmanpreetYatin/Easy-SharedPreferences/0.1.0
 )
 
