@@ -24,9 +24,14 @@ allprojects {
 	        implementation 'com.github.AmanpreetYatin:Easy-SharedPreferences:0.1.0' </code>
 
    
-<b>Usage</b>
-<br>
-//initilize only ones in application class<br>
+<b>Usage</b><br>
+<b> JAVA /<b>
+	<code>
+		EasySharedPreferenceConfig.Companion.initDefault(new EasySharedPreferenceConfig.Builder()
+                .inputFileName("easy_preference")
+                .inputMode(Context.MODE_PRIVATE)
+		.build());</code><br>
+	<b>Kotlin</b><br>
  <code>
  override fun onCreate() {
         super.onCreate()<br>
