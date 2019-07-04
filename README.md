@@ -2,7 +2,10 @@
 A Simple Library to store  data on shared preferences
 
 Spec
-https://jitpack.io/#AmanpreetYatin/Easy-SharedPreferences/0.1.0
+[![Release](https://jitpack.io/v/User/Repo.svg)]
+(https://jitpack.io/#AmanpreetYatin/Easy-SharedPreferences/0.1.0
+)
+
 
 <b>EasySharedPreferences is a powerful library to work with key-value storages in Android </b>
 
