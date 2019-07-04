@@ -25,19 +25,20 @@ allprojects {
 
    
 <b>Usage</b><br>
-<b> JAVA /<b>
+<b>JAVA</b><br>
 	<code>
 		EasySharedPreferenceConfig.Companion.initDefault(new EasySharedPreferenceConfig.Builder()
                 .inputFileName("easy_preference")
                 .inputMode(Context.MODE_PRIVATE)
 		.build());</code><br>
+	
 	<b>Kotlin</b><br>
  <code>
  override fun onCreate() {
         super.onCreate()<br>
         EasySharedPreferenceConfig.initDefault(EasySharedPreferenceConfig.Builder()
-                .setFileName("easy_preference")
-                .setMode(Context.MODE_PRIVATE)
+                .inputFileName("easy_preference")
+                .inputMode(Context.MODE_PRIVATE)
                 .build())
     }</code>
     <br>
