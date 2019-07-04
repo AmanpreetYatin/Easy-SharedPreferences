@@ -29,7 +29,7 @@ allprojects {
 //initilize only ones in application class<br>
  <code>
  override fun onCreate() {
-        super.onCreate()
+        super.onCreate()<br>
         EasySharedPreferenceConfig.initDefault(EasySharedPreferenceConfig.Builder()
                 .setFileName("easy_preference")
                 .setMode(Context.MODE_PRIVATE)
