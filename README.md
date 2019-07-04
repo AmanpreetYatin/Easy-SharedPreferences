@@ -25,6 +25,7 @@ allprojects {
 
    
 <b>Usage</b><br>
+
 <b>JAVA</b><br>
 	<code>
 		EasySharedPreferenceConfig.Companion.initDefault(new EasySharedPreferenceConfig.Builder()
