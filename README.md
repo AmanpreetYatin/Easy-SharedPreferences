@@ -1,6 +1,8 @@
 # Easy-SharedPreferences
 A Simple Library to store  data on shared preferences
 
+<b>Note: Purley Written in Kotlin</b><br>
+
 
 ![Release](https://jitpack.io/v/AmanpreetYatin/Easy-SharedPreferences.svg)<br><br>
 (https://jitpack.io/#AmanpreetYatin/Easy-SharedPreferences/0.1.1
